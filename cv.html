@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>个人简历</title>
+    <title>卢秋成的个人简历</title>
     <link rel="stylesheet" href="static/css/cv.css">
     <script src="static/js/script.js"></script>
 </head>
@@ -17,7 +17,7 @@
                 <div class="remodal remodal-img" data-remodal-id="portrait-modal">
                 </div> -->
                 <h2 id="username">卢秋成</h2>
-                <h5 id="persona-tag">嵌入式Linux系统开发工程师</h5>
+                <h5 id="persona-tag">嵌入式Linux系统驱动工程师</h5>
             </div>
 
             <div class="profile info-unit">
@@ -26,55 +26,13 @@
                 <ul class="info-list">
 
                     <li>
-                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
-                    <li>
-                        <label class="left-label">毕业年份</label><span class="label-value">2018</span></li>
+                        <label class="left-label">最高学历</label><span class="label-value">本科</span></li>
+                    <!-- <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2018</span></li> -->
                     <li>
                         <label class="left-label">毕业院校</label><span class="label-value">哈尔滨学院</span></li>
                     <li>
-                        <label class="left-label">籍贯</label><span class="label-value">广东 · 肇庆</span></li>
-                </ul>
-            </div>
-
-            <div class="contact info-unit">
-                <h3 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">了解更多</span></h3>
-                <hr>
-                <ul class="info-list">
-                    <li>
-                        <label class="left-label">Tel</label><span class="label-value">
-                            <Script language="javascript">
-                                function GetRequest() {
-                                    var url = location.search; //获取url中"?"符后的字串
-                                    var theRequest = new Object();
-                                    if (url.indexOf("?") != -1) {    //判断是否有参数
-                                        var str = url.substr(1);
-                                        if (str.indexOf("&") != -1) {
-                                            strs = str.split("&");
-                                            for (var i = 0; i < strs.length; i++) {
-                                                theRequest[strs[i].split("=")[0]] = strs[i].split("=")[1];
-                                            }
-                                        }
-                                        else {
-                                            theRequest[str.split("=")[0]] = str.split("=")[1];
-                                        }
-                                    }
-                                    return theRequest;
-                                }
-                                var arg = new Object();
-                                arg = GetRequest();
-                                var tel = arg['key'];
-                                if (tel == "86")
-                                    document.write("+8614714768147");
-                                else
-                                    document.write("+86xxxxx");
-                            </Script>
-                        </span></li>
-                    <li>
-                        <label class="left-label">Blog</label><span class="label-value"><a href="https://chowe.one">chowe.one</a></span></li>
-                    <li>
-                        <label class="left-label">Email</label><span class="label-value"><a href="mailto:chowe911@msn.com">chowe911@msn.com</a></span></li>
-                    <li>
-                        <label class="left-label">GitHub</label><span class="label-value"><a href="https://github.com/Chowe911">git.chowe.one</a></span></li>
+                        <label class="left-label">何方人士</label><span class="label-value">广东 · 肇庆</span></li>
                 </ul>
             </div>
 
@@ -120,11 +78,11 @@
                         <label class="left-label">Device Tree</label>
                     </li>
                     <li>
-                        <label class="left-label">4G/WiFi</label>
-                        <label class="left-label">UART/RS485</label>
+                        <label class="left-label">4G/5G</label>
+                        <label class="left-label">WiFi</label>
                     </li>
                     <li>
-                        <label class="left-label">Ubuntu</label>
+                        <label class="left-label">RS485</label>
                         <label class="left-label">I2S/Codec</label>
                     </li>
                     <li>
@@ -143,6 +101,14 @@
                         <label class="left-label">Axera</label>
                         <label class="left-label">T-Head</label>
                     </li>
+                    <li>
+                        <label class="left-label">Boya</label>
+                        <label class="left-label">Ubuntu</label>
+                    </li>
+                    <li>
+                        <label class="left-label">Docker</label>
+                        <label class="left-label">Redmine</label>
+                    </li>
                 </ul>
             </div>
 
@@ -153,18 +119,18 @@
                     <li>
                         <label class="full-label">英语4级</label>
                     </li>
-                        <li>
-                            <label class="full-label">软件设计师（中级）</label>
-                        </li>
-                        <li>
-                            <label class="full-label">嵌入式系统设计师（中级）</label>
-                        </li>
-                        <!-- <li>
-                            <label class="full-label">全国大学生嵌入式设计大赛<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;东北赛区一等奖（第十三届）</label>
-                        </li> -->
-                        <li>
-                            <!-- <label class="full-label">2018年度优秀员工</label> -->
-                        </li>
+                    <li>
+                        <label class="full-label">软件设计师（中级）</label>
+                    </li>
+                    <li>
+                        <label class="full-label">嵌入式系统设计师（中级）</label>
+                    </li>
+                    <li>
+                        <label class="full-label">大学生嵌入式设计赛一等奖</label>
+                    </li>
+                    <li>
+                        <label class="full-label">优秀员工</label>
+                    </li>
                 </ul>
             </div>
 
@@ -201,7 +167,7 @@
                 </div>
             -->
 
-            <div class="trophy info-unit">
+            <!-- <div class="trophy info-unit">
                 <h3 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">工作态度</span></h3>
                 <hr>
                 <ul class="info-list">
@@ -214,9 +180,9 @@
                         <label class="left-label">复盘总结</label>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
-        <div class="trophy info-unit">
+            <div class="trophy info-unit">
                 <h3 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h3>
                 <hr>
                 <ul class="info-list">
@@ -249,7 +215,51 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="contact info-unit">
+                <h3 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">了解更多</span></h3>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">Tel</label><span class="label-value">
+                            <Script language="javascript">
+                                function GetRequest() {
+                                    var url = location.search; //获取url中"?"符后的字串
+                                    var theRequest = new Object();
+                                    if (url.indexOf("?") != -1) {    //判断是否有参数
+                                        var str = url.substr(1);
+                                        if (str.indexOf("&") != -1) {
+                                            strs = str.split("&");
+                                            for (var i = 0; i < strs.length; i++) {
+                                                theRequest[strs[i].split("=")[0]] = strs[i].split("=")[1];
+                                            }
+                                        }
+                                        else {
+                                            theRequest[str.split("=")[0]] = str.split("=")[1];
+                                        }
+                                    }
+                                    return theRequest;
+                                }
+                                var arg = new Object();
+                                arg = GetRequest();
+                                var tel = arg['key'];
+                                if (tel == "86")
+                                    document.write("+8614714768147");
+                                else
+                                    document.write("+86xxxxx");
+                            </Script>
+                        </span></li>
+                    <li>
+                        <label class="left-label">Blog</label><span class="label-value"><a href="https://fixed-link.com">fixed-link.com</a></span></li>
+                    <li>
+                        <label class="left-label">Email</label><span class="label-value"><a href="mailto:fixed-link@qq.com">fixed-link@qq.com</a></span></li>
+                    <li>
+                        <label class="left-label">GitHub</label><span class="label-value"><a href="https://git.fixed-link.com">git.fixed-link.com</a></span></li>
+                </ul>
+            </div>
+
         </div>
+    
 
         <div class="main">
             <br /><br />
@@ -272,9 +282,9 @@
                 <ul class="experience-list">
                     <li>
                         <h3>嵌入式Linux系统驱动工程师(2020.05-至今)</h3>
-                        <p>在某边缘计算产品及解决方案公司，主要负责基于海思，瑞芯微，爱芯，平头哥等平台的边缘计算系统驱动开发，涉及的工作内容有：<br />
+                        <p>在某边缘计算产品及解决方案公司，主要负责基于海思，瑞芯微，爱芯，平头哥等平台的编解码系统驱动开发，涉及的工作内容有：<br />
                         0. U-Boot: 主要是配置pinmux、启动参数或者是裁剪、开发功能模块，如读写指定的I2C设备。<br />
-                        1. Kernel & Drivers: 主要是配置config，通过dts管理外设；为外设编写/修改驱动等。涉及的外设包括：4G、WiFi、RTC、RS485、TP、Codec、视频转换IC(如BT1120转HDMI)。<br />
+                        1. Kernel & Drivers: 主要是配置config，通过dts管理外设；为外设编写/修改驱动等。涉及的外设包括：4G、WiFi、RTC、RS485、TP、Codec、phy、视频转换IC(如BT1120转HDMI)等等。<br />
                         2. Rootfs: 使用Busybox或者Buildroot配置基本文件系统或者移植开源组件，如e2fsprog。<br />
                         3. MPP: 各平台的多媒体处理组件，修改sample用于调试HDMI等视频输出或者Sensor等视频输入，以及其他多媒体外设的调试。<br />
                         4. Android: 主要在RK平台上使用，涉及对Android系统的一些修改、Android kernel的调试和OTA等，以及通过repo进行代码的管理和lunch来进行设备的切换。<br />
@@ -331,9 +341,19 @@
             </div>
 
             <div class="project info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">工作感悟</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">工作复盘</span></h2>
                 <hr>
                 <ul class="experience-list">
+                    <p>制定可行的计划表</p>
+                    <p>在动手前进行做尽可能详细的需求分析</p>
+                    <p>保持沟通交流，减少信息差，形成反馈</p>
+                    <p>留有冗余时间</p>
+                    <p>尽可能提前开始</p>
+                    <p>利用工具管理进度</p>
+                    <p>减少构建步骤</p>
+                    <p>评审和优化代码</p>
+                    <p>持续学习</p>
+
                     <!-- <li>
                         <h3>全自动智能婴儿车（毕业设计）</h3>
                         <p>
