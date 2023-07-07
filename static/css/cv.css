@@ -171,6 +171,7 @@ progress::-moz-progress-value {
 .me {
     text-align: center;
     margin-bottom: 20px;
+    padding-right: 30px;
 }
 
 .weixin{
