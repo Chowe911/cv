@@ -88,21 +88,3 @@ jQuery(document).ready(function($) {
     // $("*").removeAttr('contenteditable');
 
 });
-
-function GetRequestURL() {
-    var url = location.search; //获取url中"?"符后的字串
-    var theRequest = new Object();
-    if (url.indexOf("?") != -1) {    //判断是否有参数
-        var str = url.substring(1);
-        if (str.indexOf("&") != -1) {
-            strs = str.split("&");
-            for (var i = 0; i < strs.length; i++) {
-                theRequest[strs[i].split("=")[0]] = strs[i].split("=")[1];
-            }
-        }
-        else {
-            theRequest[str.split("=")[0]] = str.split("=")[1];
-        }
-    }
-    return theRequest;
-}
