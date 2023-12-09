@@ -211,15 +211,15 @@
                         <h3>嵌入式Linux系统驱动工程师(2020.05-2023.07) - 广州英码</h3>
                         <h4>工作内容</h4>
                         <p>负责新平台/新项目的板卡的bring up、驱动调试、文件系统制作、镜像输出</p>
-                        <p>负责维护旧平台，解决FAE、测试反馈各类问题</p>
+                        <p>负责维护旧平台，解决FAE、测试反馈的各类问题</p>
                         <p>负责文档的编写/更新</p>
                         <h4>项目经验(海思/Hisilicon)</h4>
                         <p>系统：Linux 3.x/4.x/5.x</p>
                         <p>类型：解决方案-音视频编解码板卡</p>
-                        <p>内容：在U-Boot调试ddr参数，配置pinmux、bootargs</p>
-                        <p>&emsp;&emsp;&emsp;在Kernel配置config；使用dts配置和管理外设；调试各种常见外设，例如：Sensor(imx334) 4G(nl668) WiFi(rtl8723) Codec(TI) NET(yt8521) RS485 TP RTC Lontium(HDMI2BT1120)，这些外设主要以I2C和SPI通讯为主，无线以USB和SDIO为主；裁剪内核
+                        <p>内容：在U-Boot调试ddr参数，配置pinmux bootargs</p>
+                        <p>&emsp;&emsp;&emsp;在Kernel配置config或裁剪内核；使用dts配置和管理外设；调试各种常见外设，例如：Sensor(imx334) 4G(nl668) WiFi(rtl8723) Codec(TI) NET(yt8521) RS485 TP RTC Lontium(HDMI转BT1120)，这些外设主要以I2C和SPI通讯为主，无线以USB和SDIO为主
                         </p>
-                        <p>&emsp;&emsp;&emsp;移植和定制Ubuntu，并且通过systemd管理其开机流程；使用Buildroot构建rootfs(ubifs/ext4)；使用Busybox构建initramfs(cpio/gz)
+                        <p>&emsp;&emsp;&emsp;移植和定制Ubuntu，并且通过systemd管理开机流程；使用Buildroot构建rootfs(ubifs/ext4)；使用Busybox构建initramfs(cpio.gz)
                         </p>
                         <p>&emsp;&emsp;&emsp;通过脚本的形式，一键打包适用于特定板卡的文件系统，输出镜像，与此同时，生成有关的版本信息
                         </p>
@@ -240,9 +240,9 @@
                         <h4>项目经验(海思/Hisilicon)</h4>
                         <p>系统：Linux 4.x</p>
                         <p>类型：考勤门禁一体机</p>
-                        <p>内容：在U-Boot调试ddr参数，配置pinmux、bootargs；读取LCD ID并以此选择不同的参数来初始化MIPI LCD、加载不同的LOGO；通过寄存器操作GPIO
+                        <p>内容：在U-Boot调试内存参数，配置I/O复用和启动参数；读取LCD ID并以此选择不同的参数来初始化MIPI LCD、加载不同的LOGO；通过寄存器操作GPIO
                         </p>
-                        <p>&emsp;&emsp;&emsp;通过裁减手段优化kernel的启动速度；移植和调试Wiegand RTC WiFi RS485 TP等外围设备驱动；通过设备树(dts)管理板级硬件信息
+                        <p>&emsp;&emsp;&emsp;通过裁减手段优化kernel的启动速度；移植和调试Wiegand RTC WiFi RS485 TP(goodix)等外围设备驱动；通过设备树(dts)管理板级硬件信息
                         </p>
                         <p>&emsp;&emsp;&emsp;配置busybox；修改inittab、rcS、fstab等脚本；使用fsck检查并修复文件系统(ext4)；构建initramfs或rootfs；移植开源组件
                         </p>
